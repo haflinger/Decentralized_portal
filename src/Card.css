@@ -1,34 +1,41 @@
 /* FORMAT, SIZE */
 
-.card-max-width {
+/*.card-max-width {
   max-width: 18rem;
 }
-
+*/
 /* FORCE SQUARE IMAGE */
 .square-box{
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
 }
 .square-box:before{
-    content: "";
-    display: block;
-    padding-top: 100%;
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
 .square-content{
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: white;
-    text-align: center;
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
 }
 .square-img {
   width: 100%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/* CARD TEXT STYLING */
+
+.card-title {
+  text-overflow: ellipsis;
+  overflow: hidden; 
 }
 
 /* CARD STYLING */
