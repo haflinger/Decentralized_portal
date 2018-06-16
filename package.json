@@ -1,5 +1,6 @@
 {
   "name": "decentralized-portal",
+  "homepage": "http://dappnode.github.io/Decentralized_portal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
