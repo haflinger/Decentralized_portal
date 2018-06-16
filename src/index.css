@@ -3,3 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+a {
+	color: inherit;
+	text-transform: none;
+	text-decoration:none;
+}
+a:hover {
+	color: inherit;
+	text-transform: none;
+	text-decoration:none;
+}

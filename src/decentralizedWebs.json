@@ -1,0 +1,26 @@
+[
+	{
+		"ens": "bitconnect.eth",
+		"description": "legit site with good future prospects",
+		"avatar": "http://i0.kym-cdn.com/entries/icons/original/000/025/224/bitconnect.jpg",
+		"category": "finance"
+	},
+	{
+		"ens": "dappnode.eth",
+		"description": "Awesome software to empower the decentralized web",
+		"avatar": "https://github.com/dappnode/DAppNode/raw/master/doc/DAppNodeLogoWide.png",
+		"category": "technology"
+	},
+	{
+		"ens": "aragon.eth",
+		"description": "Decentralized application to run your organization",
+		"avatar": "http://cryptohydra.com/wp-content/uploads/2017/08/1494359210301-aragon.png",
+		"category": "technology"
+	},
+	{
+		"ens": "mycrypto.eth",
+		"description": "The n#1 Ethereum wallet with multiple functionalities",
+		"avatar": "https://support.mycrypto.com/images/mycrypto-logo-square.png",
+		"category": "Finance"
+	}
+]
