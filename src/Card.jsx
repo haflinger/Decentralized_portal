@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import avatars from "./avatars";
 
 export default class Card extends React.Component {
   render() {
@@ -22,7 +23,7 @@ export default class Card extends React.Component {
 
     return (
       <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item mb-4 card-max-width">
-        <a href={"http://" + ens}>
+        <a href={"http://" + link + "/"} target="_blank">
           <div className="card h-100 card-clickable">
             <div className="p-1 hover-animation" data-text={description}>
               <div className="square-box">
@@ -32,7 +33,7 @@ export default class Card extends React.Component {
               </div>
             </div>
             <div className="card-body text-nowrap">
-              <h5 className="card-title">{ens}</h5>
+              <h5 className="card-title">{name}</h5>
               <div className="d-flex justify-content-between">
                 <span className="card-type">{category}</span>
                 <span className={"card-tag active"}>LIVE</span>
