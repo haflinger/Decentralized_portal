@@ -10,10 +10,15 @@ export default class Card extends React.Component {
     // "avatar": "http://i0.kym-cdn.com/entries/icons/original/000/025/224/bitconnect.jpg",
     // "category": "finance"
 
-    let ens = dweb.ens || "?";
+    let name = dweb.name || "";
+    let link = dweb.link || "";
     let description = dweb.description || "Awesome decentralized website";
     let category = dweb.category || "general";
     let avatar = dweb.avatar || "default";
+    if (dweb.avatar && dweb.avatar.includes("http")) avatar = dweb.avatar;
+    else if (dweb.avatar && avatars.hasOwnProperty(dweb.avatar))
+      avatar = avatars[dweb.avatar];
+    else avatar = avatars.defaultAvatar;
 
     return (
       <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item mb-4 card-max-width">
