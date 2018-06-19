@@ -1,30 +1,66 @@
 [
 	{
-		"link": "my.admin.dnp.dappnode.eth",
+		"link": "http://dappnode.eth/",
+		"name": "DAppNode",
+		"description": "Connect to the decentralized internet, donate to DAppNode",
+		"avatar": "dappnode",
+		"category": "Technology",
+		"status": "live"
+	},
+	{
+		"link": "http://leaderboard.giveth.eth/",
+		"name": "Giveth Leaderboard",
+		"description": "Donate to giveth, made with <3 by the Unicorns at Giveth",
+		"avatar": "giveth",
+		"category": "Technology",
+		"status": "live"
+	},
+	{
+		"link": "http://my.admin.dnp.dappnode.eth/",
 		"name": "Admin UI",
 		"description": "Administrative tool for your DAppNode",
 		"avatar": "dappnodeAdmin",
-		"category": "Technology"
+		"category": "Technology",
+		"status": "live"
 	},
 	{
-		"link": "mycrypto.dappnode.eth",
+		"link": "http://mycrypto.dappnode.eth/",
 		"name": "MyCrypto",
 		"description": "MyCrypto is a free, open-source interface for interacting with the blockchain",
 		"avatar": "mycrypto",
-		"category": "Finance"
+		"category": "Finance",
+		"status": "live"
 	},
 	{
-		"link": "gmultisig.dappnode.eth",
+		"link": "http://gmultisig.dappnode.eth/",
 		"name": "Gnosis multisig",
 		"description": "Allows multiple parties to agree on transactions before execution",
 		"avatar": "gnosis",
-		"category": "Multisig"
+		"category": "Multisig",
+		"status": "live"
 	},
 	{
-		"link": "your-dapp.eth",
+		"link": "http://aragon.dappnode.eth/",
+		"name": "Aragon",
+		"description": "Create and manage unstoppable decentralized organizations on Ethereum",
+		"avatar": "aragon",
+		"category": "Governance",
+		"status": "live"
+	},
+	{
+		"link": "http://ens.dappnode.eth/",
+		"name": "ENS Manager",
+		"description": "ENS offers a secure and decentralised way to address resources both on and off the blockchain using simple, human-readable names.",
+		"avatar": "ens",
+		"category": "Domains",
+		"status": "live"
+	},
+	{
+		"link": "https://riot.im/app/#/room/#DAppNode:matrix.org",
 		"name": "Your DApp",
 		"description": "Contact the DAppNode team to get your page featured in the decentralized portal",
 		"avatar": "none",
-		"category": "Finance"
+		"category": "Finance",
+		"status": "upcoming"
 	}
 ]

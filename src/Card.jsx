@@ -15,6 +15,7 @@ export default class Card extends React.Component {
     let link = dweb.link || "";
     let description = dweb.description || "Awesome decentralized website";
     let category = dweb.category || "general";
+    let status = dweb.status || "live";
     let avatar = dweb.avatar || "default";
     if (dweb.avatar && dweb.avatar.includes("http")) avatar = dweb.avatar;
     else if (dweb.avatar && avatars.hasOwnProperty(dweb.avatar))
@@ -23,7 +24,7 @@ export default class Card extends React.Component {
 
     return (
       <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item mb-4 card-max-width">
-        <a href={"http://" + link + "/"} target="_blank">
+        <a href={link} target="_blank">
           <div className="card h-100 card-clickable">
             <div className="p-1 hover-animation" data-text={description}>
               <div className="square-box">
@@ -36,7 +37,7 @@ export default class Card extends React.Component {
               <h5 className="card-title">{name}</h5>
               <div className="d-flex justify-content-between">
                 <span className="card-type">{category}</span>
-                <span className={"card-tag active"}>LIVE</span>
+                <span className={"card-tag active"}>{status}</span>
               </div>
             </div>
           </div>
