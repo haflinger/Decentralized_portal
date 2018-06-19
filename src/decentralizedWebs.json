@@ -8,7 +8,7 @@
 		"status": "live"
 	},
 	{
-		"link": "http://leaderboard.giveth.eth/",
+		"link": "http://giveth.dappnode.eth/",
 		"name": "Giveth Leaderboard",
 		"description": "Donate to giveth, made with <3 by the Unicorns at Giveth",
 		"avatar": "giveth",
