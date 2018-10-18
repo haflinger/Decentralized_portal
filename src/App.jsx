@@ -14,7 +14,7 @@ class App extends Component {
           <p className="App-title">Decentralized portal</p>
           <hr />
           <p className="App-subtitle">
-            Permanent censorship resistant websites <br /> powered by IFPS,
+            Permanent censorship resistant websites <br /> powered by IPFS,
             Ethereum and DAppNode
           </p>
         </div>
